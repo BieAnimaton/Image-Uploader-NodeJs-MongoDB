@@ -1,0 +1,55 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\User\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add mongooge express cors ejs dotenv multer body-parser
+
+PATH: 
+  C:\Python39\Scripts\;C:\Python39\;C:\Program Files\Microsoft MPI\Bin\;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\HashiCorp\Vagrant\bin;C:\wamp64\bin\;C:\Program Files (x86)\Graphviz2.38\bin;C:\OpenSSL\bin;C:\Users\User\AppData\Local\Programs\Python\Python37\Scripts;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Ruby26-x64\bin;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Users\User\AppData\Local\Programs\Microsoft VS Code\bin;C:\src\flutter\bin;C:\wamp64\;C:\Program Files (x86)\Graphviz2.38\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3.3\bin;C:\Program Files\MongoDB\Server\4.2\bin;C:\Users\User\AppData\Local\GitHubDesktop\bin;C:\Program Files\heroku\bin;C:\Users\User\AppData\Roaming\npm
+
+Yarn version: 
+  1.21.1
+
+Node version: 
+  15.0.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/mongooge: Not found
+      at Request.params.callback [as _callback] (C:\Users\User\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66947:18)
+      at Request.self.callback (C:\Users\User\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140665:22)
+      at Request.emit (node:events:327:20)
+      at Request.<anonymous> (C:\Users\User\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141637:10)
+      at Request.emit (node:events:327:20)
+      at IncomingMessage.<anonymous> (C:\Users\User\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141559:12)
+      at Object.onceWrapper (node:events:433:28)
+      at IncomingMessage.emit (node:events:339:22)
+      at endReadableNT (node:internal/streams/readable:1289:12)
+      at processTicksAndRejections (node:internal/process/task_queues:80:21)
+
+npm manifest: 
+  {
+    "name": "image-uploader",
+    "version": "1.0.0",
+    "description": "Projeto para enviar e receber imagens do MongoDB usando NodeJs. // Project to send and receive images from MongoDB using NodeJs.",
+    "main": "server.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node server.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/BieAnimaton/Image-Uploader-NodeJs-MongoDB.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/BieAnimaton/Image-Uploader-NodeJs-MongoDB/issues"
+    },
+    "homepage": "https://github.com/BieAnimaton/Image-Uploader-NodeJs-MongoDB#readme"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
