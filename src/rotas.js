@@ -4,7 +4,7 @@ const fs = require('fs');
 const path = require('path');
 
 // Configuração Multer
-const multerConf = require('./uploads/multerConfig');
+const multerConf = require('./config/multer');
 
 const imagemModelo = require('./modelos/galeria');
 
