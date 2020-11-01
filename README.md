@@ -30,7 +30,7 @@ yarn start
 ```
 
 ## Change the database :pushpin:
-For connect to your MongoDB database, create ".env" file nn project root and write: " MONGO_URL='mongodb+srv://user:user@cluster0.uvjzi.mongodb.net/galeria?retryWrites=true&w=majority' ".
+For connect to your MongoDB database, create ".env" file in project root and write: " MONGO_URL='mongodb+srv://user:user@cluster0.uvjzi.mongodb.net/galeria?retryWrites=true&w=majority' ".
 
 ## Alter tables :file_folder:
 If you want add more params in your MongoDB table, change the file "galeria.js" and modify the "imgSchema", thereafter, complete with same params in "rotas.js", on part called "rotas.post()".
