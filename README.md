@@ -20,7 +20,7 @@ npm install
     or
 yarn install
 
-#To start
+# To start
 npm start
    or
 yarn start
